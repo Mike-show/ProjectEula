@@ -11,7 +11,6 @@ void DataMove(char *Row, char *Temp, int CurrentRow, int Count);
 
 int main(void){
     FILE *fp;
-    FILE *fp2;
     fp = fopen("p022_names.txt", "r");
 
     //create an array to store names which have been re-ordered
@@ -63,7 +62,6 @@ int main(void){
     }
     
     uint64_t Sum = 0;
-    int Count2 = 0;
     for(int i=0; i<Count; i++){
         int SumRow = 0;
         for(int j=0; *(Row+i*LEN+j) != '\0'; j++){
