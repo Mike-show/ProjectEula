@@ -3,7 +3,38 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "CircleCount:26.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "a[20-(i+2*CircleDigit)]">
+            </PersistentString>
+            <PersistentString
+               value = "a[20-(i+CircleDigit)]">
+            </PersistentString>
+            <PersistentString
+               value = "a[20-i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Divide:26.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(a+3)">
+            </PersistentString>
+            <PersistentString
+               value = "*(a+1)">
+            </PersistentString>
+            <PersistentString
+               value = "*(a+10)">
+            </PersistentString>
+            <PersistentString
+               value = "*(a+2)">
+            </PersistentString>
+            <PersistentString
+               value = "*(a+9)">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>
